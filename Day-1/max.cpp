@@ -6,7 +6,7 @@ int maximum(int a , int b , int c){
     if(b>max){
         max = b;
     }
-    else if(c>max){
+    if(c>max){
         max = c;
     }
     return max;
